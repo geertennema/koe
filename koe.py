@@ -19,4 +19,6 @@ class Feed:
         elif koe.weight == 600:
             self.energy = 37000
             self.protein = 305
-    
+        else:
+            self.energy = 40000
+            self.protein = 350
