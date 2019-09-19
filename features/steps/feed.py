@@ -1,4 +1,4 @@
-from behave import given, when, then  # pylint: disable=no-name-in-module
+from behave import given, when, then
 from koe import Cow, Feed
 
 @given(u'the cow weighs {weight:d} kg')
