@@ -3,7 +3,7 @@ class Cow:
     def __init__(self, weight, age):
         self.weight = weight
         self.age = age
-        
+
 
 class Feed:
 
@@ -24,4 +24,5 @@ class Feed:
             self.energy = 40000
             self.protein = 350
         elif koe.age == 1
-            self.energy = 
+            self.energy = 38000
+            self.protein = 332.5    
