@@ -2,6 +2,7 @@ Feature: Calculate feed
 
 Scenario Outline: feeding a suckler cow
   Given the cow weighs <weight> kg
+  And the cow is <age> years old
   When we calculate the feeding requirements
   Then the energy should be <energy> MJ
   And the protein should be <protein> kg
