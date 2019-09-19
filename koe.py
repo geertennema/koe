@@ -25,4 +25,7 @@ class Feed:
             self.protein = 350
         elif koe.age == 1:
             self.energy = 38000
-            self.protein = 332 
+            self.protein = 332
+        elif koe.age == 2
+            self.energy = 
+            self.koe = 
