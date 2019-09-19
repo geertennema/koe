@@ -1,11 +1,14 @@
-from behave import given, when, then
+from behave import given, when, then 
 from koe import Cow, Feed
 
 @given(u'the cow weighs {weight:d} kg')
-def test_weight(context, weight):
-    context.cow = Cow(weight)
-    assert context.cow.weight == weight
+def test_weight(context, weight ):
+    context.weight = weight
 
+@given(u'the cow is {age:d} years old')
+def test_age(context, age ):
+    context.cow = Cow(context.weight, age)
+    assert context.cow.age == age
 
 @when(u'we calculate the feeding requirements')
 def feed(context):
