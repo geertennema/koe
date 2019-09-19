@@ -7,9 +7,12 @@ Scenario Outline: feeding a suckler cow
   And the protein should be <protein> kg
 
   Examples:
-    | weight | energy | protein |
-    |    450 |  26500 |     215 |
-    |    500 |  29500 |     245 |
-    |    575 |  31500 |     255 |
-    |    600 |  37000 |     305 |
-    |    650 |  40000 |     350 |
+    | weight | energy | protein | age |
+    |    450 |  26500 |     215 |   0 |
+    |    500 |  29500 |     245 |   0 |
+    |    575 |  31500 |     255 |   0 |
+    |    600 |  37000 |     305 |   0 |
+    |    650 |  40000 |     350 |   0 |
+    |        |        |         |     |
+
+
