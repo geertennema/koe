@@ -1,12 +1,9 @@
 class Cow:
 
-    def __init__(self, weight):
+    def __init__(self, weight, age):
         self.weight = weight
-
-class Age:
-
-    def __init__(self.age)
-        self.age = Age
+        self.age = age
+        
 
 class Feed:
 
