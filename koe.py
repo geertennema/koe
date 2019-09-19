@@ -3,6 +3,10 @@ class Cow:
     def __init__(self, weight):
         self.weight = weight
 
+class Age:
+
+    def __init__(self.age)
+        self.age = Age
 
 class Feed:
 
