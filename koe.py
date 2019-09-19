@@ -32,3 +32,6 @@ class Feed:
         elif koe.age == 3:
             self.energy =34200
             self.protein = 299
+
+
+#final commit and push uitgevoerd
