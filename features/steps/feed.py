@@ -20,6 +20,4 @@ def test_energy(context, energy):
 def test_protein(context, protein):
     assert context.feed.protein == protein
 
-@then(u'the age is {age:d} year)
-def test_age(contect, age):
-    assert context.feed.age
+
